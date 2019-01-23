@@ -1,0 +1,55 @@
+input {
+    border-radius: 5px;
+    background-color: #FFF3F3;
+
+}
+
+
+.container {
+    width: 50%;
+    height: 50vh;
+    border: 1px black solid;
+    background-color: turquoise;
+    color: white;
+    font-family: "Noto Sans";
+    font-size: 1.2em;
+
+}
+
+#contenu {
+    display: inline-block;
+    width: 60%;
+    margin-top: 5%;
+
+}
+
+#formulaire {
+
+   text-align: center;
+
+
+}
+
+#infoP {
+    display: inline-block;
+    float: left;
+    margin-left: 50%;
+
+}
+
+#infoS {
+
+    display: inline-block;
+    float: right;
+}
+
+#space {
+    clear: both;
+}
+
+#bas {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}

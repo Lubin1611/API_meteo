@@ -8,6 +8,7 @@ function ajaxRequest() {
             //document.getElementById('dataUpdate').innerHTML = this.responseText;
             var obj = JSON.parse(this.responseText);
             document.getElementById('nom').innerHTML = "Nom = " + obj.name;
+            document.getElementById('temp').innerHTML =  obj.main.temp + " °C";
             document.getElementById('tempMax').innerHTML = "Temp.max = " + obj.main.temp_max;
             document.getElementById('tempMin').innerHTML = "Temp.min = " + obj.main.temp_min;
             document.getElementById('pression').innerHTML = "Pression.Atmos = " + obj.main.pressure;

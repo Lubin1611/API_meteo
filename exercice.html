@@ -3,23 +3,35 @@
 <head>
     <meta charset="utf-8">
     <title>JS-Meteo</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<label>Entrez un nom de commune :</label><input id = "input" name="recherche">
-<button id = "envoi">Envoyez</button>
-<div id = 'dataUpdate'></div>
 
-<div id = 'nom'></div>
-<div id = 'tempMax'></div>
-<div id = 'tempMin'></div>
-<div id = 'pression'></div>
-<span id = 'humide'></span>
-<span id = 'vent'></span>
-<span id = 'longitude'></span>
-<span id = 'latitude'></span>
+<div class="container">
+    <div id=formulaire>
+        <label>Entrez un nom de commune :</label><input id="input" name="recherche">
+        <button id="envoi">Envoyez</button>
+    </div>
 
-
+    <div id='contenu'>
+        <div id=infoP>
+            <div id='temp'></div>
+        </div>
+        <div id='infoS'>
+            <div id='nom'></div>
+            <div id='tempMax'></div>
+            <div id='tempMin'></div>
+            <div id='pression'></div>
+            <div id='humide'></div>
+            <div id='vent'></div>
+        </div>
+        <div id = 'space'></div>
+        <div id = bas>
+        <span id='longitude'></span>
+        <span id='latitude'></span>
+        </div>
+    </div>
+</div>
 
 <script src="exercice.js"></script>
 </body>
